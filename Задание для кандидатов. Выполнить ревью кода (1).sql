@@ -1,5 +1,6 @@
 create procedure syn.usp_ImportFileCustomerSeasonal
 	@ID_Record int
+-- 1. Операторы и системные функции пишутся в нижнем регистре	
 AS
 set nocount on
 begin
